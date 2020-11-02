@@ -2,7 +2,7 @@ on:
   push:
     paths:
     - 'ARM-Templates/**'
-      - 
+      
 name: Azure ARM
 jobs:
   build-and-deploy:
