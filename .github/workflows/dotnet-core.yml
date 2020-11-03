@@ -10,6 +10,12 @@ on:
     paths: 
       - 'Application/**'
 
+env: 
+  registryName: axwthdevopsreg.azurecr.io
+  repositoryName: wth/dotnetcoreapp
+  dockerfilePath: Application/aspnet-core-dotnet-core
+  tag: $
+
 jobs:
   build:
 
