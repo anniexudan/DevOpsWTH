@@ -14,7 +14,7 @@ env:
   registryName: axwthdevopsreg.azurecr.io
   repositoryName: wth/dotnetcoreapp
   dockerfilePath: Application/aspnet-core-dotnet-core
-  tag: $
+  tag: ${{ github.run_number }}
 
 jobs:
   build-and-test:
