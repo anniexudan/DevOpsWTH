@@ -34,7 +34,7 @@ jobs:
       run: dotnet test ./Application/aspnet-core-dotnet-core.UnitTests/aspnet-core-dotnet-core.UnitTests.csproj
 
   docker-build-and-push:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     
     steps:
       - uses: actions/checkout@v2
